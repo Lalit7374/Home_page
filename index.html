@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Feedback System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Faculty Feedback System</h1>
+    </header>
+
+    
+    <div class="container">
+        
+        <div class="filter">
+            <label for="languageSelect">Filter by Language: </label>
+            <select id="languageSelect">
+                <option value="all">All</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="mern">MERN</option>
+                <option value="datascience">Data Science</option>
+                <option value="cplusplus">C++</option>
+            </select>
+        </div>
+
+        
+        <div id="cards-container" class="cards-container">
+            
+            <div class="card python">
+                <img src="./images/abc.avif" alt="Python Faculty">
+                <h3>Mr. Arshad Ali</h3>
+                <p><strong>Subject:</strong> Python</p>
+                <p><strong>Experience:</strong> 8 Years</p>
+                <p><strong>Qualification:</strong> PhD in Computer Science</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card python">
+                <img src="./images/a.jpg" alt="Python Faculty">
+                <h3>Mr. Rohit Sharma</h3>
+                <p><strong>Subject:</strong> Python</p>
+                <p><strong>Experience:</strong> 10 Years</p>
+                <p><strong>Qualification:</strong> MTech in Software Engineering</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card python">
+                <img src="./images/abc.avif" alt="Python Faculty">
+                <h3>Dr. Rajat Chouhan</h3>
+                <p><strong>Subject:</strong> Python</p>
+                <p><strong>Experience:</strong> 6 Years</p>
+                <p><strong>Qualification:</strong> MSc in Computer Science</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card python">
+                <img src="./images/abc.avif" alt="Python Faculty">
+                <h3>Mr. Gaurav Mandoli </h3>
+                <p><strong>Subject:</strong> Python</p>
+                <p><strong>Experience:</strong> 9 Years</p>
+                <p><strong>Qualification:</strong> PhD in Data Science</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            
+            <div class="card java">
+                <img src="./images/b.jpg" alt="Java Faculty">
+                <h3>Mr. Akshat Verma</h3>
+                <p><strong>Subject:</strong> Java</p>
+                <p><strong>Experience:</strong> 10 Years</p>
+                <p><strong>Qualification:</strong> MTech in Software Engineering</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card java">
+                <img src="./images/abc.avif" alt="Java Faculty">
+                <h3>Dr. Ashutosh Sharma</h3>
+                <p><strong>Subject:</strong> Java</p>
+                <p><strong>Experience:</strong> 8 Years</p>
+                <p><strong>Qualification:</strong> PhD in Computer Science</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card java">
+                <img src="./images/b.jpg" alt="Java Faculty">
+                <h3>Mr. Raghav Chouhan</h3>
+                <p><strong>Subject:</strong> Java</p>
+                <p><strong>Experience:</strong> 7 Years</p>
+                <p><strong>Qualification:</strong> MSc in Software Engineering</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card java">
+                <img src="./images/abc2.jpg" alt="Java Faculty">
+                <h3>Mr. Akash Varma</h3>
+                <p><strong>Subject:</strong> Java</p>
+                <p><strong>Experience:</strong> 5 Years</p>
+                <p><strong>Qualification:</strong> MSc in Software Engineering</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            
+            <div class="card mern">
+                <img src="./images/abc.avif" alt="MERN Faculty">
+                <h3>Mr. Shray Khandalwal</h3>
+                <p><strong>Subject:</strong> MERN</p>
+                <p><strong>Experience:</strong> 7 Years</p>
+                <p><strong>Qualification:</strong> PhD in Web Development</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            <div class="card mern">
+                <img src="./images/b.jpg" alt="MERN Faculty">
+                <h3>Dr. Dhaval Nimavat</h3>
+                <p><strong>Subject:</strong> MERN</p>
+                <p><strong>Experience:</strong> 6 Years</p>
+                <p><strong>Qualification:</strong> MSc in Full-Stack Development</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            
+            <div class="card datascience">
+                <img src="./images/abc2.jpg" alt="Data Science Faculty">
+                <h3>Mr. Akash Chouhan</h3>
+                <p><strong>Subject:</strong> Data Science</p>
+                <p><strong>Experience:</strong> 10 Years</p>
+                <p><strong>Qualification:</strong> PhD in Data Science</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+            
+            <div class="card cplusplus">
+                <img src="./images/abc.avif" alt="C++ Faculty">
+                <h3>Mr. Romil Sharma</h3>
+                <p><strong>Subject:</strong> C++</p>
+                <p><strong>Experience:</strong> 8 Years</p>
+                <p><strong>Qualification:</strong> MSc in Computer Science</p>
+                <div class="feedback-form">
+                    <textarea placeholder="Enter your feedback here..."></textarea>
+                    <button onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2025 Faculty Feedback System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
