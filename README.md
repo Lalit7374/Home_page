@@ -26,9 +26,14 @@ The **Faculty Feedback System** is a web application that allows students to pro
 - **JavaScript**: Used for frontend logic and managing state.
 - **Backend**: Node.js and Express (assumed backend for API) for faculty data and authentication.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/faculty-feedback-system.git
+### Installation
+
+  - Clone the repository.
+  - Navigate into the project directory.
+  - Install dependencies using `npm install`.
+  - Run the development server using `npm run dev`.
+  - The website will be accessible at `http://localhost:5000`.
+
+This should now meet all your requirements for including the necessary setup instructions in the `README.md` file!
 
