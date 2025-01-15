@@ -26,6 +26,18 @@ The **Faculty Feedback System** is a web application that allows students to pro
 - **JavaScript**: Used for frontend logic and managing state.
 - **Backend**: Node.js and Express (assumed backend for API) for faculty data and authentication.
 
+## Screenshots
+
+Here are some screenshots of the application:
+ 
+### Registration Page:
+![Registration Page](assets/images/registration-page.png)
+
+### Login Page:
+![Login Page](assets/images/login-page.png)
+
+### Home Page:
+![Home Page](assets/images/home-page.png)
 
 ### Installation
 
@@ -35,5 +47,5 @@ The **Faculty Feedback System** is a web application that allows students to pro
   - Run the development server using `npm run dev`.
   - The website will be accessible at `http://localhost:5000`.
 
-This should now meet all your requirements for including the necessary setup instructions in the `README.md` file!
+
 
